@@ -41,3 +41,4 @@ declare
 begin
   select DEPART_NO into DEPART_NO from DEPARTMENT where DEPART_NAME = 'Finance';
   executeTask(DEPART_NO);
+end;
